@@ -19,11 +19,6 @@ h2{
     font-size: 30px;
     font-family: 'Monoton', regular;
 }
-.blocviolet{
-    width: auto;
-    height: 382px;
-    background-color: #9A7EB0;
-}
 .tarifs{
     width: auto;
     height: 484px;
@@ -38,8 +33,8 @@ h2{
     height: 460px;
     background-color: black;
 }
+.blocviolet{
     background-image: url(boxviolette.png);
-<<<<<<< HEAD
     background-size: 100% 100%;border: oldlace;
     border-radius: 5px;
     padding-left: 156px;
@@ -48,17 +43,6 @@ h2{
     display: flex;
     justify-content: space-between;
 }
-
-
-=======
-    background-size: 100% 100%;
-}
-div .h2{
-    color: #E0E0E2;
-    font-size: 30px;
-    font-family: 'Monoton', regular;
-}
-
 .contenu-footer{
     text-align: center;
     color: #E0E0E2;
@@ -82,4 +66,3 @@ h4{
 li {
     list-style: none;
 }
->>>>>>> 48e4e7ad37f731f54a0b45959d8a3f794cbedff9
