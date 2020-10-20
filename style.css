@@ -18,12 +18,28 @@ h2{
     color: #E0E0E2;
     font-size: 30px;
     font-family: 'Monoton', regular;
-    margin-block-start: 0%;
 }
 .blocviolet{
     width: auto;
     height: 382px;
+    background-color: #9A7EB0;
+}
+.tarifs{
+    width: auto;
+    height: 484px;
+    background-color: #9A7EB0;
+}
+.barrenoire{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 0.8%;
+    left: -25px;
+    width: 8px;
+    height: 460px;
+    background-color: black;
+}
     background-image: url(boxviolette.png);
+<<<<<<< HEAD
     background-size: 100% 100%;border: oldlace;
     border-radius: 5px;
     padding-left: 156px;
@@ -34,3 +50,36 @@ h2{
 }
 
 
+=======
+    background-size: 100% 100%;
+}
+div .h2{
+    color: #E0E0E2;
+    font-size: 30px;
+    font-family: 'Monoton', regular;
+}
+
+.contenu-footer{
+    text-align: center;
+    color: #E0E0E2;
+    font-family: 'Niramit', regular;
+ 
+}
+
+h3{
+    text-align: center;
+    color: #E0E0E2;
+    font-size: 40px;
+    font-family: 'Monoton', regular;
+}
+h4{
+    text-align: center;
+    color: #E0E0E2;
+    font-family: 'Niramit', regular;
+
+}
+
+li {
+    list-style: none;
+}
+>>>>>>> 48e4e7ad37f731f54a0b45959d8a3f794cbedff9
