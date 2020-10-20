@@ -62,6 +62,11 @@ h2{
     font-size: 30px;
     font-family: 'Monoton', regular;
 }
+.blocviolet{
+    width: auto;
+    height: 382px;
+    background-color: #9A7EB0;
+}
 .tarifs{
     width: auto;
     height: 484px;
@@ -124,6 +129,10 @@ footer{
     
     }
 
+li {
+    list-style: none;
+    text-align: center;
+}
 
     .grosse_boite {
         display: flex;
