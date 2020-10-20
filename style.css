@@ -19,11 +19,6 @@ h2{
     font-size: 30px;
     font-family: 'Monoton', regular;
 }
-.blocviolet{
-    width: auto;
-    height: 382px;
-    background-color: #9A7EB0;
-}
 .tarifs{
     width: auto;
     height: 484px;
@@ -38,6 +33,7 @@ h2{
     height: 460px;
     background-color: black;
 }
+.blocviolet{
     background-image: url(boxviolette.png);
     background-size: 100% 100%;border: oldlace;
     border-radius: 5px;
@@ -46,6 +42,7 @@ h2{
     padding-top: 24px;
     display: flex;
     justify-content: space-between;
+    height: 382px;
 }
 
 
@@ -76,7 +73,6 @@ h4{
     font-family: 'Niramit', regular;
 
 }
-
 li {
     list-style: none;
 }
