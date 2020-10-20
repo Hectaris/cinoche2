@@ -23,5 +23,18 @@ h2{
     width: auto;
     height: 382px;
     background-color: #9A7EB0;
-    position
+}
+.tarifs{
+    width: auto;
+    height: 484px;
+    background-color: #9A7EB0;
+}
+.barrenoire{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 0.8%;
+    left: -25px;
+    width: 8px;
+    height: 460px;
+    background-color: black;
 }
