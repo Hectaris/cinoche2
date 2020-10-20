@@ -4,3 +4,11 @@ bonjour vincent
 bonjour à toi maurine, comment vas tu ? 
 OK
 j'en ai marre
+
+Pour gerer les conflicts : 
+- pull avant de push 
+- faire deux commits avec la fusion qui se fait auto 
+QUAND C'est pas auto : 
+- push / pas a jour 
+- pull 
+- changer manuellement (accept or deny)(ou suppr manuellement)
