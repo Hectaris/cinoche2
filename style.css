@@ -73,6 +73,9 @@ h2{
     font-family: 'Monoton', regular;
 }
 .blocviolet{
+    width: auto;
+<<<<<<< HEAD
+    height: auto;
     background-image: url(boxviolette.png);
 }
 footer{
@@ -92,3 +95,9 @@ footer{
     height:100px;
     
     }
+=======
+    height: 382px;
+    background-color: #9A7EB0;
+    position
+}
+>>>>>>> 33db9b23954ac8ada7a035d8836c34ad138edbd8
