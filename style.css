@@ -74,30 +74,13 @@ h2{
 }
 .blocviolet{
     width: auto;
-<<<<<<< HEAD
-    height: auto;
-    background-image: url(boxviolette.png);
-}
-footer{
-
-    background:#9A7EB0;
-    
-    position:absolute;
-
-    color:#E0E0E2;
-    
-    bottom:0;
-    
-    width:100%;
-    
-    padding-top:50px;
-    
-    height:100px;
-    
-    }
-=======
     height: 382px;
-    background-color: #9A7EB0;
-    position
+    background-image: url(boxviolette.png);
+    background-size: 100% 100%;
 }
->>>>>>> 33db9b23954ac8ada7a035d8836c34ad138edbd8
+div .h2{
+    color: #E0E0E2;
+    font-size: 30px;
+    font-family: 'Monoton', regular;
+}
+
