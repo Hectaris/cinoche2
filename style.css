@@ -1,6 +1,14 @@
-j'adore le style
-le vie c'est cool
-bonjour vincent
-bonjour à toi maurine, comment vas tu ? 
-OK
-j'en ai marre
+h1 {
+    text-align: center ;
+    position: relative ;
+    top: 37px;
+    font-size: 60px;
+
+}
+
+h2 {
+    text-align: center ;
+    position: relative ;
+    top: 67px;
+    font-size: 40px;
+}
