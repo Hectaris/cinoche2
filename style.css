@@ -24,13 +24,13 @@ h2{
     width: auto;
     height: 382px;
     background-image: url(boxviolette.png);
-    background-size: 100% 100%;
-}
-.titres{
-    border: oldlace;
+    background-size: 100% 100%;border: oldlace;
     border-radius: 5px;
     padding-left: 156px;
+    padding-right: 195px;
     padding-top: 24px;
-    padding: 
+    display: flex;
+    justify-content: space-between;
 }
+
 
