@@ -83,6 +83,11 @@ footer{
     height:100px;
     
 }
+.blocviolet{
+    width: auto;
+    height: 382px;
+
+}
 .grosse_boite {
         display: flex;
         justify-content: space-around;
