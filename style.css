@@ -1,56 +1,10 @@
-.align_titre_burger {
-    position: relative;
-    justify-content: center;
-    display: flex;
-}
-
-
-
-
-
-
-.burger {
-    width: 70px;
-    left: 5px;
-    top: 85px;
-    cursor: pointer;
-    position: absolute;
-    
-}
-
-.burger span {
-    width: 100%;
-    height: 6px;
-    background-color:  #E0E0E2;
-    display: block;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.burger span::before, .burger span::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 6px;
-    background-color:#E0E0E2;
-
-}
-
-.burger span::before {
-    transform: translateY(-20px);
-}
-
-.burger span::after {
-    transform: translateY(20px);
-}
-
-
 h1{
     text-align: center;
     color: #E0E0E2;
     font-size: 60px;
     font-family: 'Monoton', regular;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
 }
 body{
     background-color: #121420;
@@ -66,56 +20,9 @@ h2{
     color: #E0E0E2;
     font-size: 30px;
     font-family: 'Monoton', regular;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
 }
-.blocviolet{
-    width: auto;
-    height: 382px;
-    background-color: #9A7EB0;
-}
-.tarifs{
-    width: auto;
-    height: 484px;
-    background-color: #9A7EB0;
-}
-.barrenoire{
-    position: absolute;
-    margin-left: 50%;
-    margin-top: 0.8%;
-    left: -25px;
-    width: 8px;
-    height: 460px;
-    background-color: black;
-}
-.blocviolet{
-    background-image: url(boxviolette.png);
-    background-size: 100% 100%;border: oldlace;
-    border-radius: 5px;
-    padding-left: 156px;
-    padding-right: 195px;
-    padding-top: 24px;
-    display: flex;
-    justify-content: space-between;
-    height: 382px;
-}
-
-
-    background-size: 100% 100%;
-}
-div .h2{
-    color: #E0E0E2;
-    font-size: 30px;
-    font-family: 'Monoton', regular;
-}
-
-.contenu-footer{
-    text-align: center;
-    color: #E0E0E2;
-    font-family: 'Niramit', regular;
- 
-}
-
-
-
 footer{
 
     background:#9A7EB0;
@@ -132,33 +39,24 @@ footer{
     
     height:100px;
     
-    }
-
-li {
-    list-style: none;
-    text-align: center;
 }
-
-    .grosse_boite {
+.grosse_boite {
         display: flex;
         justify-content: space-around;
         padding: 100px 0px;
-    }
-    
-    .la_boite_totoro{
+}
+.la_boite_totoro{
         width: 341px;
         height: 455px;
         background-color: red;
-    }
-    
-    .la_boite_ailleurs{
+}    
+.la_boite_ailleurs{
         width: 341px;
         height: 455px;
         background-color: red;
-    }
-    
-    .la_boite_calamity{
+} 
+.la_boite_calamity{
         width: 334px;
         height: 454.5px;
         background-color: red;
-    }
+}
