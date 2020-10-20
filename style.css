@@ -19,9 +19,9 @@ h2{
     font-size: 30px;
     font-family: 'Monoton', regular;
 }
-
-
-
+.blocviolet{
+    background-image: url(boxviolette.png);
+}
 footer{
 
     background:#9A7EB0;
@@ -39,6 +39,8 @@ footer{
     height:100px;
     
     }
+<<<<<<< HEAD
+=======
 
     {
 
@@ -71,3 +73,4 @@ footer{
         position:relative;
         
         }
+>>>>>>> ce6f1160a374db64fd56096452effc5ed52d948c
