@@ -204,6 +204,7 @@ li {
 .imageBV2{
     height: 255px;
     position: absolute;
-    margin-block-start: 722px;
-    background-position: ;
+    margin-left: 722px;
+    margin-top: 65px;
+    flex: 1 auto;
 }
