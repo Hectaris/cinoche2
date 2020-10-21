@@ -29,6 +29,12 @@ height: 285px;
 
 .les_boites_films2{
 	width: 217.28px;
-    height: 282.02px;
-    padding-bottom: 62px;
+	height: 282.02px;
+}
+.espace{
+    height: 100px;
+}
+.texte{
+    margin-left: 80px;
+    margin-top: 50px;
 }
