@@ -144,6 +144,30 @@ li {
         background-color: red;
 }
 
+.grosse_boite_films {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0px;
+}
+
+.la_boite_troll{
+	width: 214px;
+	height: 285px;
+}
+
+.la_boite_jacques{
+	width: 214px;
+	height: 285px;
+}
+
+.la_boite_beetlejuice{
+	width: 214px;
+	height: 285px;
+}
+.la_boite_blancheneige{
+	width: 214px;
+	height: 285px;
+}
 
 .align_titre_burger {
     position: relative;
