@@ -1,5 +1,7 @@
 .menu-btn {
     position: absolute;
+    margin-top: 4px;
+    margin-left: 10px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -64,4 +66,12 @@
     background-size: 100% 100%;
     height: 460px;
     margin-block-start: 0%;
+}
+
+img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 1385px;
+    margin-top : -2px;
 }
