@@ -41,7 +41,6 @@ h2{
     height: 460px;
     background-color: black;
 }
-
 .contenu-footer{
     text-align: center;
     color: #E0E0E2;
@@ -83,12 +82,16 @@ h4 {
     text-align: center;
     color: #E0E0E2;
     font-family: 'Niramit', regular;
-
 }
-
 li {
     list-style: none;
 }
+
+.align-menu_titre_logo {
+    margin-top: 50px;
+    display: flex;
+}
+
 
 .menu-btn {
     position: relative;
