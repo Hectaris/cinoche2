@@ -18,3 +18,14 @@ padding: 10px 0px;
 width: 214px;
 height: 285px;
 }
+
+.grosse_boite_films2 {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0px;
+}
+
+.les_boites_films2{
+	width: 217.28px;
+	height: 282.02px;
+}
