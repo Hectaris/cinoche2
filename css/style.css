@@ -86,10 +86,17 @@ h4 {
 li {
     list-style: none;
 }
-
-.align-menu_titre_logo {
-    margin-top: 50px;
-    display: flex;
+@font-face {
+    font-family: "Niramit-bold";
+    src: url(/fonts/Niramit-bold)
+}
+@font-face {
+    font-family: "Niramit-Extralight";
+    src: url(/fonts/Niramit-Extralight)
+}
+@font-face {
+    font-family: "Monoton-regular";
+    src: url(/fonts/Monoton-regular)
 }
 
 
