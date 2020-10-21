@@ -97,50 +97,27 @@ h2{
     justify-content: space-between;
     height: 382px;
 }
-.grosse_boite {
-        display: flex;
-        justify-content: space-around;
-        padding: 100px 0px;
-}
-.la_boite_totoro{
-        width: 341px;
-        height: 455px;
-        background-color: red;
-}    
-.la_boite_ailleurs{
-        width: 341px;
-        height: 455px;
-        background-color: red;
-} 
-.la_boite_calamity{
-        width: 334px;
-        height: 454.5px;
-        background-color: red;
+.contenu-footer{
+    text-align: center;
+    color: #E0E0E2;
+    font-family: 'Niramit', regular;
+
 }
 
-.grosse_boite_films {
-	display: flex;
-	justify-content: space-around;
-	padding: 10px 0px;
+h3{
+    text-align: center;
+    color: #E0E0E2;
+    font-size: 40px;
+    font-family: 'Monoton', regular;
 }
+h4{
+    text-align: center;
+    color: #E0E0E2;
+    font-family: 'Niramit', regular;
 
-.la_boite_troll{
-	width: 214px;
-	height: 285px;
 }
-
-.la_boite_jacques{
-	width: 214px;
-	height: 285px;
-}
-
-.la_boite_beetlejuice{
-	width: 214px;
-	height: 285px;
-}
-.la_boite_blancheneige{
-	width: 214px;
-	height: 285px;
+li {
+    list-style: none;
 }
 
 .align_titre_burger {
