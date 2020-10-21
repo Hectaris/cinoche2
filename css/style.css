@@ -83,10 +83,10 @@ li {
     src: url(/fonts/Monoton-regular)
 }
 .textetarif{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 107px;
-    margin-right: 107px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 107px;
+    padding-right: 107px;
 }
 p.tarifement{
     color: #E0E0E2;
@@ -97,4 +97,5 @@ p.texte20{
     color: #E0E0E2;
     font-size: 20px;
     font-family: 'Niramit', sans-serif;
+    line-height: 28px;
 }
