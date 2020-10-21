@@ -1,0 +1,41 @@
+.align_titre_burger {
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.burger {
+    width: 70px;
+    left: 5px;
+    top:60px;
+    cursor: pointer;
+    position: absolute;
+    
+}
+
+.burger span {
+    width: 100%;
+    height: 6px;
+    background-color:  #E0E0E2;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger span::before, .burger span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color:#E0E0E2;
+
+}
+
+.burger span::before {
+    transform: translateY(-20px);
+}
+
+.burger span::after {
+    transform: translateY(20px);
+}
