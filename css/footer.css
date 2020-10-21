@@ -12,11 +12,6 @@
     margin-bottom: 0;
 }
 
-.contenu-footer {
-    text-align: center;
-    color: #E0E0E2;
-    font-family: 'Niramit', regular;
-}
 
 h3 {
     text-align: center;
@@ -27,8 +22,12 @@ h3 {
 
 h4 {
     text-align: center;
+    font-size: 30px;
     color: #E0E0E2;
-    font-family: 'Niramit', regular;
+    font-family: 'Niramit', bold;
+    margin-block-end: 0;
+    margin-block-start: 20px;
+  
 }
 
 #nav {
@@ -59,4 +58,12 @@ h4 {
 
 a {
     color: #E0E0E2;
+}
+
+.partenaires {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 3200px;left: 43%;
 }
