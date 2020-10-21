@@ -97,28 +97,6 @@ h2{
     justify-content: space-between;
     height: 382px;
 }
-.contenu-footer{
-    text-align: center;
-    color: #E0E0E2;
-    font-family: 'Niramit', regular;
-
-}
-
-h3{
-    text-align: center;
-    color: #E0E0E2;
-    font-size: 40px;
-    font-family: 'Monoton', regular;
-}
-h4{
-    text-align: center;
-    color: #E0E0E2;
-    font-family: 'Niramit', regular;
-
-}
-li {
-    list-style: none;
-}
 .grosse_boite {
         display: flex;
         justify-content: space-around;
