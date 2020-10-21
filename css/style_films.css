@@ -41,3 +41,24 @@
     margin-left: 80px;
     margin-top: 50px;
 }
+
+.boite_titres{
+	color : #E0E0E2;
+	font-size: 20px;
+	display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Niramit', regular ;
+}
+
+.boite_totoro{
+	padding-left: 50px; 
+}
+
+.boite_ailleurs{
+	padding-left: 80px;
+}
+
+.boite_calamity{
+	padding-left: 50px;
+}
