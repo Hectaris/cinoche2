@@ -237,12 +237,18 @@ li {
     flex: 1 auto;
     padding-right: 200px;
 }
-.imageBV{
+.imageBV1{
     height: 255px;
     position: absolute;
-    background-position-x: 156px;
-    background-position-y: 545px;
     margin-block-start: 65px;
+    margin-block-end: 388px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+.imageBV2{
+    height: 255px;
+    position: absolute;
+    margin-block-start: 722px;
+    background-position: ;
 }
