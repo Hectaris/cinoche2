@@ -99,7 +99,6 @@ li {
     height: 80px;
     cursor: pointer;
     transition: all .5s ease-in-out;
-    border: 3px solid #E0E0E2;
 }
 
 .menu-btn_burger {
@@ -130,5 +129,18 @@ li {
     transform: translateY(16px);
 }
 
+/* Animtation du burger lorsqu'il est cliqué : */
 
+.menu-btn.open .menu-btn_burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
 
+.menu-btn.open .menu-btn_burger::before {
+    transform: rotate(45deg); translate: (35px, -35px);
+}
+
+.menu-btn.open .menu-btn_burger::after {
+    
+}
