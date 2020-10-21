@@ -41,17 +41,7 @@ h2{
     height: 460px;
     background-color: black;
 }
-.BV{
-    background-image: url(boxviolette.png);
-    background-size: 100% 100%;
-    border-radius: 5px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 24px;
-    display: flex;
-    justify-content: space-between;
-    height: 382px;
-}
+
 .contenu-footer{
     text-align: center;
     color: #E0E0E2;
@@ -139,28 +129,6 @@ li {
 .menu-btn_burger::after {
     transform: translateY(16px);
 }
-.BVtitre{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-block-end: 0%;
-    height: 50px;
-    flex: 1 auto;
-    padding-right: 200px;
-}
-.imageBV1{
-    height: 255px;
-    position: absolute;
-    margin-block-start: 65px;
-    margin-block-end: 388px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.imageBV2{
-    height: 255px;
-    position: absolute;
-    margin-left: 722px;
-    margin-top: 65px;
-    flex: 1 auto;
-}
+
+
+
