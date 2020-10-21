@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     padding: 10px 0px;
+    padding-bottom: 62;
 }
 .boites_affiches{
     width: 341px;
@@ -12,6 +13,7 @@
 display: flex;
 justify-content: space-around;
 padding: 10px 0px;
+padding-bottom: 20px;
 }
 
 .boites_films1{
@@ -22,7 +24,7 @@ height: 285px;
 .grosse_boite_films2 {
 	display: flex;
 	justify-content: space-around;
-	padding: 10px 0px;
+    padding: 10px 0px;
 }
 
 .les_boites_films2{
