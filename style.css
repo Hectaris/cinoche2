@@ -88,10 +88,10 @@ h2{
 }
 .blocviolet{
     background-image: url(boxviolette.png);
-    background-size: 100% 100%;border: oldlace;
+    background-size: 100% 100%;
     border-radius: 5px;
-    padding-left: 156px;
-    padding-right: 195px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 24px;
     display: flex;
     justify-content: space-between;
@@ -232,4 +232,6 @@ li {
 .burger span::after {
     transform: translateY(20px);
 }
-
+.titres{
+    height: 255px;
+}
