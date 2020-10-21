@@ -139,13 +139,6 @@ li {
 .menu-btn_burger::after {
     transform: translateY(16px);
 }
-<<<<<<< HEAD
-
-
-
-
-.titres{
-=======
 .BVtitre{
     display: flex;
     justify-content: space-between;
@@ -156,7 +149,6 @@ li {
     padding-right: 200px;
 }
 .imageBV1{
->>>>>>> e2e5d97a3dd5f8ace1357bc23f1d1359db048276
     height: 255px;
     position: absolute;
     margin-block-start: 65px;
