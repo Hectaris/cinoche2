@@ -105,7 +105,7 @@ li {
 
 p.tarifement {
     color: #E0E0E2;
-    font-size: 30px;
+    font-size: 10px;
     font-family: 'Niramit', sans-serif;
     margin-bottom: 5px;
 }
@@ -115,9 +115,19 @@ p.tarifement {
     font-size: 20px;
     font-family: 'Niramit', sans-serif;
 }
-.tariff {
+.tariffgauche {
     color: #E0E0E2;
     font-size: 30px;
     font-family: 'Niramit', sans-serif;
     margin-bottom: 5px;
+}
+.tariffdroite {
+    color: #E0E0E2;
+    font-size: 30px;
+    font-family: 'Niramit', sans-serif;
+    margin-bottom: 5px;
+}
+.cyril{
+    display: flex;
+    justify-content: space-around;
 }
