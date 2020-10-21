@@ -4,13 +4,15 @@ h1 {
     font-weight: normal;
     font-size: 60px;
     font-family: 'Monoton', regular;
-    margin-block-start: 0px;
+    padding-top: 30px;
     margin-block-end: 0%;
+    margin-block-start: 0px;
 }
 
 body {
     background-color: #121420;
     color: #E0E0E2;
+    margin: 0px;
 }
 
 p.sstitre {

@@ -1,7 +1,7 @@
 .imageBV2 {
     height: 255px;
     position: absolute;
-    left: 827px;
+    left: 835px;
     margin-block-start: 65px;
     flex: 1 auto;
 }
@@ -11,9 +11,6 @@
     position: absolute;
     margin-block-start: 65px;
     margin-block-end: 388px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .BVtitre {
@@ -35,4 +32,22 @@
     display: flex;
     justify-content: space-between;
     height: 382px;
+}
+.BVtexte {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: absolute;
+    top: -5px; left: 174px;
+}
+.BVcontenu{
+    font-family: 'Niramit', sans-serif;
+    font-size: 20px;
+    margin-block-start: 0px;
+    padding-left: 18px;
+    width: 500px;
+}
+.BVbutton{
+    margin-left: 18px;
+    
 }
