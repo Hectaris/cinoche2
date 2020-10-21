@@ -4,37 +4,40 @@
     padding: 10px 0px;
     padding-bottom: 62;
 }
-.boites_affiches{
+
+.boites_affiches {
     width: 341px;
     height: 455px;
-}    
-
-.grosse_boite_films1 {
-display: flex;
-justify-content: space-around;
-padding: 10px 0px;
-padding-bottom: 20px;
 }
 
-.boites_films1{
-width: 214px;
-height: 285px;
+.grosse_boite_films1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    padding-bottom: 20px;
+}
+
+.boites_films1 {
+    width: 214px;
+    height: 285px;
 }
 
 .grosse_boite_films2 {
-	display: flex;
-	justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
     padding: 10px 0px;
 }
 
-.les_boites_films2{
-	width: 217.28px;
-	height: 282.02px;
+.les_boites_films2 {
+    width: 217.28px;
+    height: 282.02px;
 }
-.espace{
+
+.espace {
     height: 100px;
 }
-.texte{
+
+.texte {
     margin-left: 80px;
     margin-top: 50px;
 }

@@ -1,4 +1,4 @@
-h1{
+h1 {
     text-align: center;
     color: #E0E0E2;
     font-weight: normal;
@@ -7,11 +7,13 @@ h1{
     margin-block-start: 0px;
     margin-block-end: 0%;
 }
-body{
+
+body {
     background-color: #121420;
     color: #E0E0E2;
 }
-p.sstitre{
+
+p.sstitre {
     text-align: center;
     color: #E0E0E2;
     font-size: 40px;
@@ -19,7 +21,8 @@ p.sstitre{
     margin-block-start: 60px;
     margin-block-end: 160px;
 }
-h2{
+
+h2 {
     color: #E0E0E2;
     font-size: 30px;
     font-family: 'Monoton', regular;
@@ -27,12 +30,14 @@ h2{
     margin-block-end: 0%;
     font-weight: normal;
 }
-.tarifs{
+
+.tarifs {
     width: auto;
     height: 484px;
     background-color: #9A7EB0;
 }
-.barrenoire{
+
+.barrenoire {
     position: absolute;
     margin-left: 50%;
     margin-top: 0.8%;
@@ -41,60 +46,72 @@ h2{
     height: 460px;
     background-color: black;
 }
-.contenu-footer{
+
+.contenu-footer {
     text-align: center;
     color: #E0E0E2;
     font-family: 'Niramit', regular;
 }
-h3{
+
+h3 {
     text-align: center;
     color: #E0E0E2;
     font-size: 40px;
     font-family: 'Monoton', regular;
     font-weight: normal;
 }
-h4{
+
+h4 {
     text-align: center;
     color: #E0E0E2;
     font-family: 'Niramit', regular;
-
 }
+
 li {
     list-style: none;
 }
+
 .contenu-footer {
     text-align: center;
     color: #E0E0E2;
     font-family: 'Niramit', regular;
 }
+
 li {
     list-style: none;
 }
+
 @font-face {
     font-family: "Niramit-bold";
     src: url(/fonts/Niramit-bold)
 }
+
 @font-face {
     font-family: "Niramit-Extralight";
     src: url(/fonts/Niramit-Extralight)
 }
+
 @font-face {
     font-family: "Monoton-regular";
     src: url(/fonts/Monoton-regular)
 }
-.textetarif{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 107px;
-    margin-right: 107px;
+
+.textetarif {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 107px;
+    padding-right: 107px;
 }
-p.tarifement{
+
+p.tarifement {
     color: #E0E0E2;
     font-size: 30px;
     font-family: 'Niramit', sans-serif;
 }
-p.texte20{
+
+p.texte20 {
     color: #E0E0E2;
     font-size: 20px;
     font-family: 'Niramit', sans-serif;
+    line-height: 28px;
 }

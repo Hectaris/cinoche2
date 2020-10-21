@@ -1,11 +1,12 @@
-.imageBV2{
+.imageBV2 {
     height: 255px;
     position: absolute;
     left: 827px;
     margin-block-start: 65px;
     flex: 1 auto;
 }
-.imageBV1{
+
+.imageBV1 {
     height: 255px;
     position: absolute;
     margin-block-start: 65px;
@@ -14,7 +15,8 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.BVtitre{
+
+.BVtitre {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -23,8 +25,9 @@
     flex: 1 auto;
     margin-right: 125px;
 }
-.BV{
-    background-image: url(/images/Fonds/boxviolette.png);
+
+.BV {
+    background-image: url(/images/fonds/boxviolette.png);
     background-size: 100% 100%;
     padding-left: 200px;
     padding-right: 200px;
