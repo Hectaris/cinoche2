@@ -31,3 +31,10 @@ h4{
     display: inline-block;
     margin: 0 30px;
 }
+
+.bloc-footer-services {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
