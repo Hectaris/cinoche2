@@ -1,0 +1,39 @@
+.contenu-footer{
+    text-align: center;
+    color: #E0E0E2;
+    font-family: 'Niramit', regular;
+
+}
+
+h3{
+    text-align: center;
+    color: #E0E0E2;
+    font-size: 40px;
+    font-family: 'Monoton', regular;
+}
+h4{
+    text-align: center;
+    color: #E0E0E2;
+    font-family: 'Niramit', regular;
+
+}
+
+#nav {
+    padding: 0; margin: 0;
+}
+
+#nav li {
+    display: inline;
+    list-style: none;
+}
+
+#nav a {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.bloc-footer-services {
+    float: left;
+    display: inline-block;
+    margin: 0 120px;
+}
