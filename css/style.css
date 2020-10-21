@@ -62,7 +62,18 @@ h4{
 li {
     list-style: none;
 }
-
+@font-face {
+    font-family: "Niramit-bold";
+    src: url(/fonts/Niramit-bold)
+}
+@font-face {
+    font-family: "Niramit-Extralight";
+    src: url(/fonts/Niramit-Extralight)
+}
+@font-face {
+    font-family: "Monoton-regular";
+    src: url(/fonts/Monoton-regular)
+}
 
 
 
