@@ -61,6 +61,31 @@ h4{
 li {
     list-style: none;
 }
+
+
+
+
+h3 {
+    text-align: center;
+    color: #E0E0E2;
+    font-size: 40px;
+    font-family: 'Monoton', regular; 
+}
+
+h4 {
+    text-align: center;
+    color: #E0E0E2;
+    font-family: 'Niramit', regular;
+}
+
+.contenu-footer {
+    text-align: center;
+    color: #E0E0E2;
+    font-family: 'Niramit', regular;
+}
+li {
+    list-style: none;
+}
 @font-face {
     font-family: "Niramit-bold";
     src: url(/fonts/Niramit-bold)
