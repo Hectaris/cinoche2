@@ -34,7 +34,6 @@ h4{
 
 .bloc-footer-services {
     float: left;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+    display: inline-block;
+    margin: 0 120px;
 }
