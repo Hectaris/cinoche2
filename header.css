@@ -39,3 +39,6 @@
 .burger span::after {
     transform: translateY(20px);
 }
+.background{
+    background-image: url();
+}
