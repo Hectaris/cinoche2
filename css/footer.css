@@ -80,8 +80,10 @@ a {
 
 .boite-blanche {
     background-color: #E0E0E2;
+    background-color: rgba(224, 224, 226, 0.6);
     display: flex;
     justify-content: space-around;
+    align-items: stretch;
     width: 1000px;
     height: 67px;
     left: 190px;
@@ -90,6 +92,14 @@ a {
 }
 
 .logos-partenaires{
+    display: flex;
+    align-items: center;
     margin-left: 25px;
     margin-right: 25px;
 }
+
+img{
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
