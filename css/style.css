@@ -162,7 +162,7 @@ p.tarifement {
 .carte{
     position: absolute;
     margin-top: 12%;
-    margin-left: 12%;
+    margin-left: 14%;
 }
 .cheque{
     position: absolute;
@@ -172,5 +172,5 @@ p.tarifement {
 .espece{
     position: absolute;
     margin-top: 184px;
-    margin-left: 32%;
+    margin-left: 30.5%;
 }
