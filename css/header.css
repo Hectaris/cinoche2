@@ -9,6 +9,7 @@
     height: 85px;
     cursor: pointer;
     transition: all .5s ease-in-out;
+    z-index: 20;
     /* border: 3px #fff */
     ;
 }
@@ -73,3 +74,36 @@
     margin-top : 0.8%;
 }
 
+.navigation {
+    position: fixed;
+    left: 0;
+    padding: 0 30px;
+    background: #121420;
+    width: 20%;
+    height: 100%;
+
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+.navigation ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.navigation ul li {
+    margin: 20px 0;
+}
+
+.navigation ul li a {
+    color: #E0E0E2;
+    font-family: 'Monoton', regular;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: .070em;
+    font-weight: 800;
+   
+}
