@@ -33,7 +33,7 @@
     display: block;
     right: 0;
     width: 150px;
-    top: 0;
+    top: 2px;
     height: 90%;
     line-height: 55px;
     border-radius: 25px;
@@ -51,4 +51,6 @@
 .cercleEncre:hover .overlay_encre {
     opacity: 1;
 }
-
+.encre .cercle1 .p{
+    padding-bottom: 3px;
+}

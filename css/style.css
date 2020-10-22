@@ -64,4 +64,12 @@ li {
 p{
     margin-block-start: 0px;
 }
-
+.film-box .p{
+    margin-block-start: 10px;
+}
+a {
+    font-weight: lighter;
+}
+ul{
+    font-weight: lighter;
+}

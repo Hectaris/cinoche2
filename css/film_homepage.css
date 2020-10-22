@@ -40,7 +40,7 @@
 
 .texte {
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .boite_titres{
@@ -67,7 +67,10 @@
 .position_soulignage{
 	margin-bottom: 100px;
 }
-
+.position_soulignage2{
+    margin-bottom: 100px;
+    height: 5px;
+}
 
 .big-films-boxes {
     display: flex;
@@ -82,7 +85,9 @@
     width: 341px;
     height: 455px;
 }
-
+.film-box p{
+    margin-block-start: 15px;
+}
 
 .big-films-boxes .film-box .film-box-img img {
     width: 100%;
