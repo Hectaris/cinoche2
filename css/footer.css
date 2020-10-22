@@ -4,6 +4,7 @@
     height: 500px;
     margin-bottom: 0;
     margin-top:150px;
+    background-color: rgba(00, 00, 00, 0.5)
 }
 
 .div-background2 {
@@ -15,10 +16,11 @@
 
 
 h3 {
-    text-align: center;
+    margin-left: 10%;
     color: #E0E0E2;
     font-size: 40px;
     font-family: 'Monoton', regular;
+    font-weight: normal;
 }
 
 h4 {
@@ -66,22 +68,6 @@ a {
     color: #E0E0E2;
 }
 
-.partenaires {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 3410px;left: 43%;
-}
-
-.michel {
-    text-align:center;
-    display:flex;
-    justify-content: center;
-    position: absolute;
-    top:3470px;left:31%;
-}
-
 #boxes{
     content: "";
     display: table;
@@ -92,3 +78,29 @@ a {
     height:500px; 
     padding:0 10px;
     }
+
+.boite-blanche {
+    background-color: #E0E0E2;
+    background-color: rgba(224, 224, 226, 0.6);
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 1000px;
+    height: 67px;
+    left: 190px;
+    top: 50px;
+    position: relative;
+}
+
+.logos-partenaires{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+img{
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
