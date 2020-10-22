@@ -1,5 +1,6 @@
-.position_soulignage{
-	margin-left: 10%;
+.position_soulignageA{
+    margin-bottom: 40px;
+    width: 185px;
 }
 .position_propos{
     display: flex;
@@ -48,4 +49,8 @@ p.localisation{
 }
 .boxcontact{
     margin-top: 50px;
+}
+.position_titre{
+    display: flex;
+    flex-direction: column;
 }
