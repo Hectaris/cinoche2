@@ -54,7 +54,6 @@ h4 {
 
 .bloc-footer-services {
     float: left;
-    display: inline-block;
     margin: 0 125px;
     text-align: center;
 }
@@ -104,3 +103,7 @@ img{
     margin-right: 9px;
 }
 
+.alignement{
+    display:flex;
+    justify-content: center;
+}
