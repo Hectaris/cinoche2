@@ -47,3 +47,19 @@ iframe{
 	border-width: 3px;
 	border-color: #9A7EB0;
 }
+
+.flex_etoile_video{
+	padding : 50px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex_etoiles{
+	display: flex;
+}
+
+.dimension_etoile{
+	width: 30px;
+	height: 30px;
+	padding: 0 2px;
+}
