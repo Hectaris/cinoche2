@@ -1,0 +1,16 @@
+.position_soulignageA{
+    margin-bottom: 40px;
+    width: 300px;
+}
+.position_propos{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.position_titre{
+        display: flex;
+        flex-direction: column;
+}
+    
