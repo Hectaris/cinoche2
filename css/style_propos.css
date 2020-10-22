@@ -23,3 +23,26 @@ p.intro{
     margin-left: 158px;
     margin-right: 198px;
 }
+.tel{
+    display: flex;
+    justify-content: space-evenly;
+}
+.local{
+    display: flex;
+    justify-content: space-evenly;
+}
+p.phonetext{
+    color: #E0E0E2;
+    font-size: 20px;
+    font-family: 'Niramit', sans-serif;
+    text-align: center;
+}
+p.localisation{
+    color: #E0E0E2;
+    font-size: 20px;
+    font-family: 'Niramit', sans-serif;
+    text-align: center;
+}
+.vincent{
+    margin-top: 50px;
+}
