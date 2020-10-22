@@ -61,22 +61,6 @@ a {
     color: #E0E0E2;
 }
 
-.partenaires {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 3380px;left: 43%;
-}
-
-.michel {
-    text-align:center;
-    display:flex;
-    justify-content: center;
-    position: absolute;
-    top:3420px;left:31%;
-}
-
 #boxes{
     content: "";
     display: table;
