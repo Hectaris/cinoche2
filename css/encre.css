@@ -7,6 +7,7 @@
     height: 420px;
 }
 .cercleEncre{
+    position: relative;
     height: 55px;
     width: 55px;
     background-image: url(/images/icons/encre.png);
@@ -24,3 +25,30 @@
 #cercle1{
     margin-top: 0px;
 }
+
+.overlay_encre {
+    color: #121420;
+    background-color: #E0E0E2;
+    position: absolute;
+    display: block;
+    right: 0;
+    width: 150px;
+    top: 0;
+    height: 90%;
+    line-height: 55px;
+    border-radius: 25px;
+    opacity: 0;
+
+    font-family: "Niramit";
+    font-weight: bold;
+    text-align: center;
+
+    cursor: pointer;
+    transition: opacity 0.3s ease-in;
+
+}
+
+.cercleEncre:hover .overlay_encre {
+    opacity: 1;
+}
+
