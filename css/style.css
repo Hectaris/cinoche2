@@ -14,6 +14,7 @@ body {
     background-color: #121420;
     color: #E0E0E2;
     margin: 0px;
+    font-family: 'Niramit', regular;
 }
 
 p.sstitre {
@@ -62,18 +63,4 @@ li {
     list-style: none;
 }
 
-@font-face {
-    font-family: "Niramit-bold";
-    src: url(/fonts/Niramit-bold)
-}
-
-@font-face {
-    font-family: "Niramit-Extralight";
-    src: url(/fonts/Niramit-Extralight)
-}
-
-@font-face {
-    font-family: "Monoton-regular";
-    src: url(/fonts/Monoton-regular)
-}
 

@@ -1,54 +1,11 @@
-.imageBV2 {
-    height: 255px;
-    position: absolute;
-    left: 835px;
-    margin-block-start: 65px;
-    flex: 1 auto;
-}
-
-.imageBV1 {
-    height: 255px;
-    position: absolute;
-    margin-block-start: 65px;
-    margin-block-end: 388px;
-}
-
-.BVtitre {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-block-end: 0%;
-    height: 50px;
-    flex: 1 auto;
-    margin-right: 125px;
-}
-
 .BV {
     background-image: url(/images/fonds/boxviolette.png);
     background-size: 100% 100%;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 24px;
-    display: flex;
-    justify-content: space-between;
-    height: 382px;
+    padding: 24px 0;
 }
-.BVtexte {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    position: absolute;
-    top: -5px; left: 174px;
-}
-.BVcontenu{
-    font-family: 'Niramit', sans-serif;
-    font-size: 20px;
-    margin-block-start: 0px;
-    padding-left: 18px;
-    width: 300px;
-}
+
 .BVbutton{
-    margin-left: 18px;
+    margin-left: 0px;
     margin-right: 50px;
     width: 150px;
     height: 40px;
@@ -57,3 +14,26 @@
     border-width: 0px;
 }
 
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-box {
+    margin: 0 80px;
+}
+
+.news-box h2 {
+    margin-bottom: 30px;
+}
+
+.news-box-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+} 
+.news-box-content img{
+    margin-left: 0px;
+    margin-right: 25px;
+} 
