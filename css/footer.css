@@ -109,9 +109,8 @@ a {
 }
 
 .bas-footer{
-    display: flex;
-    justify-items: start;
-    text-align: start;
+    display: grid;
+    justify-content: end;
     margin: 0px;
 }
 
