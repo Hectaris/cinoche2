@@ -37,3 +37,6 @@
     margin-left: 0px;
     margin-right: 25px;
 } 
+.news-box-content .news-box-text{
+    height: 100%;
+}
