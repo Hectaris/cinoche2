@@ -51,7 +51,6 @@ li {
 }
 .Fbutton{
     margin-left: 45%;
-    margin-right: 50px;
     width: 150px;
     height: 40px;
     background-image: url(/images/fonds/boxviolette.png);
@@ -62,5 +61,7 @@ li {
 li {
     list-style: none;
 }
-
+p{
+    margin-block-start: 0px;
+}
 
