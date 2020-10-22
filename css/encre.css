@@ -1,0 +1,26 @@
+.encre{
+    position: fixed;
+    top: 255px;
+    left: 1450px;
+    z-index: 1;
+    display: block;
+    height: 420px;
+}
+.cercleEncre{
+    height: 55px;
+    width: 55px;
+    background-image: url(/images/icons/encre.png);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.traitEncre{
+    height: 32px;
+    width: 5px;
+    background-image: url(/images/icons/traitencres.png);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+#cercle1{
+    margin-top: 0px;
+}
