@@ -1,7 +1,7 @@
 .encre{
     position: fixed;
     top: 242px;
-    left: 1450px;
+    left: 95%;
     z-index: 1;
     display: block;
     height: 420px;
@@ -19,7 +19,7 @@
     background-image: url(/images/icons/traitencres.png);
     margin-top: 2px;
     margin-bottom: 2px;
-    margin-left: 27px;
+    margin-left: 25px;
 }
 #cercle1{
     margin-top: 0px;

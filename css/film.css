@@ -1,0 +1,46 @@
+a{
+	color:#E0E0E2;
+	size : 20px;
+	font-family: 'Niramit'
+}
+
+.position_titre{
+	margin-left: 175px;
+	margin-top: 60px;
+}
+
+
+.dimension_affiche{
+	width: 230px;
+	height: 300px;
+	margin-left: 175px;
+	margin-bottom: 0px;
+}
+
+.flex_affiche_et_synopsis{
+	display: flex;
+	justify-content: space-around;
+}
+
+.marge_synopsis{
+	margin-left: 60px;
+	margin-right: 80px;    /*COMMENT REMONTER LE SYNOPSIS ?*/ 
+}
+
+.position_video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 95px;
+}
+
+p.taille_titre{
+	font-size: 40px;
+}
+
+.position_barre{
+	margin-top: 90px;
+    margin-left: 470px;
+    margin-bottom: 90px;
+
+}

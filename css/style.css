@@ -21,7 +21,7 @@ p.sstitre {
     color: #E0E0E2;
     font-size: 40px;
     font-family: 'Niramit', sans-serif;
-    margin-block-start: 60px;
+    margin-block-start: 40px;
     margin-block-end: 35px;
 }
 
@@ -48,7 +48,16 @@ li {
     color: #E0E0E2;
     font-family: 'Niramit', regular;
 }
-
+.Fbutton{
+    margin-left: 45%;
+    margin-right: 50px;
+    width: 150px;
+    height: 40px;
+    background-image: url(/images/fonds/boxviolette.png);
+    font-family:'Niramit', sans-serif;
+    border-width: 0px;
+    margin-top: 50px;
+}
 li {
     list-style: none;
 }
