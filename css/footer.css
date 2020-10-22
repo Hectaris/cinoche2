@@ -16,11 +16,11 @@
 
 
 h3 {
-    margin-left: 10%;
     color: #E0E0E2;
     font-size: 40px;
     font-family: 'Monoton', regular;
     font-weight: normal;
+    margin-block-start: 0%;
 }
 
 h4 {
@@ -49,7 +49,7 @@ h4 {
 }
 
 .liste-footer{
-    font-size: 20px
+    font-size: 20px;
 }
 
 
@@ -67,11 +67,6 @@ a {
     display: table;
     clear: both;
     }
-    .contenu-footer{
-    float:left;
-    height:500px; 
-    padding:0 10px;
-    }
 
 .boite-blanche {
     background-color: #E0E0E2;
@@ -81,9 +76,7 @@ a {
     align-items: stretch;
     width: 1000px;
     height: 67px;
-    left: 15%;
     top: 50px;
-    position: relative;
 }
 
 .logos-partenaires{
@@ -98,9 +91,19 @@ a {
     margin-right: 9px;
 }
 
+
 .alignement{
-    display:flex;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.contenu-footer {
+    display: grid;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+   
+}
+
+.bloc-footer-nav{
+    margin-bottom: 40px;
 }
