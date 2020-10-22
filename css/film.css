@@ -24,7 +24,7 @@ a{
 
 .marge_synopsis{
 	margin-left: 60px;
-	margin-right: 80px;    /*COMMENT REMONTER LE SYNOPSIS ?*/ 
+	margin-right: 80px; 
 }
 
 .position_video{
@@ -43,4 +43,8 @@ p.taille_titre{
     margin-left: 470px;
     margin-bottom: 90px;
 
+}
+iframe{
+	border-width: 3px;
+	border-color: #9A7EB0;
 }
