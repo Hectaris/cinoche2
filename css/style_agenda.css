@@ -1,0 +1,20 @@
+.blocagenda{
+    display: flex;
+    justify-content: center;
+    background-color: #9A7EB0;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin-top: -50px;
+}
+.auj{
+    width: 50%;
+    color: #E0E0E2;
+    font-size: 40px;
+    font-family: 'Niramit', sans-serif;
+}
+.dem{
+    width: 50%;
+    color: #E0E0E2;
+    font-size: 40px;
+    font-family: 'Niramit', sans-serif;
+}
