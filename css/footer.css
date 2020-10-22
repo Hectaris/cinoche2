@@ -66,8 +66,14 @@ a {
     display: table;
     clear: both;
     }
-    .contenu-footer{
+
+.contenu-footer{
     float:left;
     height:500px; 
     padding:0 10px;
     }
+.partenaires{
+    position: relative;
+    top: 50px;
+    left: -450px;
+}
