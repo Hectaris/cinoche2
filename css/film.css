@@ -48,3 +48,14 @@ iframe{
 	border-width: 3px;
 	border-color: #9A7EB0;
 }
+.aButton{
+	text-align: center;
+    width: 150px;
+    height: 40px;
+    background-image: url(/images/fonds/boxviolette.png);
+    font-family:'Niramit', sans-serif;
+    border-width: 0px;
+}
+.ligne1{
+	
+}
