@@ -41,7 +41,7 @@ h2 {
 
 .barrenoire {
     position: absolute;
-    margin-left: 50%;
+    margin-left: 52%;
     margin-top: 0.8%;
     left: -25px;
     width: 8px;
@@ -103,6 +103,7 @@ li {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-right: 300px;
 }
 
 p.tarifement {
