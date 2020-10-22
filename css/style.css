@@ -129,6 +129,7 @@ p.tarifement {
     font-size: 30px;
     font-family: 'Niramit', sans-serif;
     margin-bottom: 5px;
+    padding-left: 80px;
 }
 .cyril{
     display: flex;
