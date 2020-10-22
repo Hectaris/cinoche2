@@ -113,10 +113,17 @@ p.tarifement {
     margin-bottom: 5px;
 }
 
-.texte20 {
+.texte20gauche {
     color: #E0E0E2;
     font-size: 20px;
     font-family: 'Niramit', sans-serif;
+}
+.texte20droite {
+    color: #E0E0E2;
+    font-size: 20px;
+    font-family: 'Niramit', sans-serif;
+    display: flex;
+    margin-left: 100px;
 }
 .tariffgauche {
     color: #E0E0E2;
@@ -130,6 +137,7 @@ p.tarifement {
     font-family: 'Niramit', sans-serif;
     margin-bottom: 5px;
     padding-left: 80px;
+    display: flex;
 }
 .cyril{
     display: flex;
