@@ -1,5 +1,5 @@
 h1 {
-    margin-left: 27.5%;
+    text-align: center;
     color: #E0E0E2;
     font-weight: normal;
     font-size: 60px;
@@ -51,7 +51,6 @@ li {
 }
 .Fbutton{
     margin-left: 45%;
-    margin-right: 50px;
     width: 150px;
     height: 40px;
     background-image: url(/images/fonds/boxviolette.png);
@@ -62,5 +61,7 @@ li {
 li {
     list-style: none;
 }
-
+p{
+    margin-block-start: 0px;
+}
 
