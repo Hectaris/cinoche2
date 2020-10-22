@@ -31,7 +31,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 95px;
+	margin-right: 95px;
 }
 
 p.taille_titre{
@@ -39,8 +39,8 @@ p.taille_titre{
 }
 
 .position_barre{
-    margin-left: 470px;
-    margin-bottom: 90px;
+	margin-left: 470px;
+	padding : 50px 0;
 
 }
 iframe{
