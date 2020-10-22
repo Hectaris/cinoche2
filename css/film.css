@@ -32,7 +32,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 95px;
+	margin-right: 95px;
 }
 
 p.taille_titre{
@@ -40,8 +40,8 @@ p.taille_titre{
 }
 
 .position_barre{
-    margin-left: 470px;
-    margin-bottom: 90px;
+	margin-left: 470px;
+	padding : 50px 0;
 
 }
 iframe{
@@ -59,4 +59,20 @@ text-align: center;
 }
 .position_soulignage{
 	margin-left: 10%;
+}
+
+.flex_etoile_video{
+	padding : 50px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex_etoiles{
+	display: flex;
+}
+
+.dimension_etoile{
+	width: 30px;
+	height: 30px;
+	padding: 0 2px;
 }
