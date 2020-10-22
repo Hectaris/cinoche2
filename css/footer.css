@@ -107,3 +107,15 @@ a {
 .bloc-footer-nav{
     margin-bottom: 40px;
 }
+
+.bas-footer{
+    display: flex;
+    justify-items: start;
+    text-align: start;
+    margin: 0px;
+}
+
+.jaune-mentions img{
+    height: 30px;
+    width: 30px;
+}
