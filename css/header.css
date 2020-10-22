@@ -79,18 +79,24 @@
     left: 0;
     padding: 0 30px;
     background: #121420;
-    width: 20%;
-    height: 100%;
+    width: 40vw;
+    height: 100vh;
+    z-index: 9 ;
 
     transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
+
+    transition: all .5s ease-in-out
 }
 
+.navigation.open{
+
+    transform: translateX(0%);
+
+}
 .navigation ul{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
 }
 
 .navigation ul li {
@@ -106,4 +112,13 @@
     letter-spacing: .070em;
     font-weight: 800;
    
+}
+.HDbutton{
+    margin-left: 45%;
+    margin-right: 50px;
+    width: 150px;
+    height: 40px;
+    background-image: url(/images/fonds/boxviolette.png);
+    font-family:'Niramit', sans-serif;
+    border-width: 0px;
 }
