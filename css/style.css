@@ -143,3 +143,34 @@ p.tarifement {
     display: flex;
     justify-content: space-around;
 }
+.lunettes{
+    color: black;
+    font-size: 30px;
+    font-family: 'Niramit', sans-serif;
+    margin-bottom: 5px;
+}
+.ouioui{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+.lunette{
+    position: absolute;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+.carte{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+.cheque{
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 21.5%;
+}
+.espece{
+    position: absolute;
+    margin-top: 184px;
+    margin-left: 32%;
+}
