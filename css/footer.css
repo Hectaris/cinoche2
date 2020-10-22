@@ -30,7 +30,6 @@ h4 {
     font-family: 'Niramit', bold;
     margin-block-end: 0;
     margin-block-start: 20px;
-  
 }
 
 #nav {
@@ -106,4 +105,20 @@ a {
 
 .bloc-footer-nav{
     margin-bottom: 40px;
+}
+
+.bas-footer{
+    display: grid;
+    justify-content: end;
+    margin: 0px;
+}
+
+.jaune-mentions img{
+    height: 30px;
+    width: 30px;
+}
+
+.jaune-mentions{
+    display: flex;
+
 }
