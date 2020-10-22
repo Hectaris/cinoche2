@@ -5,16 +5,16 @@
     flex-wrap: wrap;
 }
 .propos1{
-    size: 1000px;
+    padding: 10px;
 }
 .propos2{
-
+    padding: 10px;
 }
 .propos3{
-
+    padding: 10px;
 }
 .propos4{
-
+    padding: 10px;
 }
 p.intro{
     color: #E0E0E2;
@@ -22,8 +22,4 @@ p.intro{
     font-family: 'Niramit', sans-serif;
     margin-left: 158px;
     margin-right: 198px;
-}
-.tocard{
-    display: flex;
-    justify-content: space-evenly;
 }
