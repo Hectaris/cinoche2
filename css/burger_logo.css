@@ -1,0 +1,127 @@
+.menu-btn {
+    position: absolute;
+    margin-left: 1.9%;
+    margin-top : 2.170%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 85px;
+    height: 85px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    z-index: 20;
+
+    ;
+}
+
+.menu-btn_burger {
+    width: 50px;
+    height: 6px;
+    background: #E0E0E2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before,
+.menu-btn_burger::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background: #E0E0E2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before {
+    transform: translateY(-16px);
+}
+
+.menu-btn_burger::after {
+    transform: translateY(16px);
+}
+
+
+/* Animtation du burger lorsqu'il est cliqué : */
+
+.menu-btn.open .menu-btn_burger {
+    transform: translateX(-20px);
+    background: transparent;
+    box-shadow: none;
+}
+
+.menu-btn.open .menu-btn_burger::before {
+    transform: rotate(45deg);
+    translate: (35px, -35px);
+}
+
+.menu-btn.open .menu-btn_burger::after {
+    transform: rotate(-45deg);
+    translate: (35px, 35px);
+}
+
+#logo-cinema {
+    position: absolute;
+    margin-left: 90%;
+    margin-top : 0.8%;
+}
+
+.navigation {
+    position: fixed;
+    left: 0;
+    padding: 0 30px;
+    background: #121420;
+    width: 30vw;
+    height: 100vh;
+    z-index: 9 ;
+
+    transform: translateX(-100%);
+
+    transition: all .5s ease-in-out
+}
+
+.navigation.open{
+
+    transform: translateX(0%);
+
+}
+.navigation ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navigation ul li {
+    margin: 20px 0;
+}
+
+.navigation ul li a {
+    color: #E0E0E2;
+    font-family: 'Monoton', regular;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: .070em;
+    font-weight: 800;
+   
+}
+
+.navigation-overlay {
+    position: fixed;
+    left: 0;
+    padding: 0 30px;
+    background: rgba(18, 20, 32, 0.70) ;
+    width: 130vw;
+    height: 100vh;
+    z-index: 0 ;
+
+    transform: translateX(-100%);
+
+    transition: all .5s ease-in-out ;
+}
+
+.navigation-overlay.open {
+    transform: translateX(0%);
+}
