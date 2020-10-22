@@ -52,11 +52,6 @@ h4 {
     font-size: 20px
 }
 
-.bloc-footer-services {
-    float: left;
-    margin: 0 125px;
-    text-align: center;
-}
 
 .logos {
     width: 50px;
@@ -106,4 +101,6 @@ img{
 .alignement{
     display:flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
