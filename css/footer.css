@@ -61,19 +61,29 @@ a {
     color: #E0E0E2;
 }
 
+.partenaires {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 3260px;left: 43%;
+}
+
+.michel {
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    top:3320px;left:31%;
+}
+
 #boxes{
     content: "";
     display: table;
     clear: both;
     }
-
-.contenu-footer{
+    .contenu-footer{
     float:left;
     height:500px; 
     padding:0 10px;
     }
-.partenaires{
-    position: relative;
-    top: 50px;
-    left: -450px;
-}
