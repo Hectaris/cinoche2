@@ -54,7 +54,7 @@
         <div class=box-sstitre>
             <p class="sstitre">Le seul cinéma français exclusivement consacré<br>aux films d'animation</p>
             <div class=HDbutton>A propos
-                <button onclick="window.location.href = 'propos.html';" class="HDbuttonOverlay :hover" >A propos</button>
+                <button onclick="window.location.href = 'propos.html';" class="HDbuttonOverlay :hover">A propos</button>
             </div>
         </div>
     </div>
@@ -93,7 +93,8 @@
                         <p>19e Fête du cinéma d'Animation </p>
                         <p>Du 14 au 31 Octobre</p>
                         <div class=BVbutton>Voir Evenements
-                        <button onclick="window.location.href = 'agenda.html';" class="BVbuttonOverlay">Voir Evenements</button>
+                            <button onclick="window.location.href = 'agenda.html';" class="BVbuttonOverlay">Voir
+                                Evenements</button>
                         </div>
                     </div>
                 </div>
@@ -107,7 +108,8 @@
                         <p>La Baleine et L'Escargote </p>
                         <p>Vendredi 23 à 17H</p>
                         <div class=BVbutton>Voir Agenda
-                            <button onclick="window.location.href = 'agenda.html';" class="BVbuttonOverlay">Voir Agenda</button>
+                            <button onclick="window.location.href = 'agenda.html';" class="BVbuttonOverlay">Voir
+                                Agenda</button>
                         </div>
                     </div>
                 </div>
@@ -127,21 +129,21 @@
                 <div class="film-box-img">
                     <img alt="Affiche Mon voisin Totoro" src="images/affiches/affiche_totoro.jpg" />
                 </div>
-                <p>TOTORO<br>Un film de Hayao Miyazaki</p>
+                <a href="film.html#Totoro">TOTORO<br>Un film de Hayao Miyazaki</a>
             </div>
 
             <div class="film-box">
                 <div class="film-box-img">
                     <img alt="Affiche Ailleurs" src="images/affiches/affiche_ailleurs.jpeg" />
                 </div>
-                <p>AILLEURS<br>Un voyage aux confins de l'imaginaire</p>
+                <a href="film.html#Ailleurs">AILLEURS<br>Un voyage aux confins de l'imaginaire</a>
             </div>
 
             <div class="film-box">
                 <div class="film-box-img">
                     <img alt="Affiche Calamity" src="images/affiches/affiche_calamity.jpg">
                 </div>
-                <p>CALAMITY<br>Une enfance de Martha Jane Cannary</p>
+                <a href="film.html#Calamity">CALAMITY<br>Une enfance de Martha Jane Cannary</a>
             </div>
         </div>
     </div>
@@ -168,21 +170,23 @@
             <img class="les_boites_films2" alt="Affiche Josep" src="images/affiches/affiche_josep.jpg" />
             <img class="les_boites_films2" alt="Affiche Fritzy" src="images/affiches/affiche_fritzy.jpg" />
         </div>
-        <div class=Fbutton>Voir Films
-        <button onclick="window.location.href = 'film.html';" class="FbuttonOverlay">Voir Films</button>
-    </div>
-
-    <div class="espace">
-        <div class="texte">
-            <h2 id="ancre4">TARIFS</h2>
-            <img class="position_soulignage2" alt="soulignage laffiche" src="images/icons/soulignage_films.png">
+        <div class=BoxFbutton>
+            <div class=Fbutton>Voir Films
+                <button onclick="window.location.href = 'film.html';" class="FbuttonOverlay">Voir Films</button>
+            </div>
         </div>
+
+        <div class="espace">
+            <div class="texte">
+                <h2 id="ancre4">TARIFS</h2>
+                <img class="position_soulignage2" alt="soulignage laffiche" src="images/icons/soulignage_films.png">
+            </div>
+        </div>
+
     </div>
     <div class="tarifs">
-        <div class="barrenoire">
-        </div>
+
         <div class="textetarif">
-            <p class="tarifement">
             <div class="cyril">
                 <div>
                     <ul>
@@ -190,7 +194,8 @@
                         <li class="tariffgauche">Tarif jeunes : 5.00 €</li>
                         <li class="texte20gauche">(-14 ans)</li>
                         <li class="tariffgauche">Tarif réduit pour tous : 5.50 €</li>
-                        <li class="texte20gauche">(Séances de 18h à 19h et celles du jeudi soir ainsi que les programmes
+                        <li class="texte20gauche">(Séances de 18h à 19h et celles du jeudi soir ainsi que les
+                            programmes
                             <br>
                             de moins d'une heure.)</li>
                         <li class="tariffgauche">Tarif réduit : 6.00 €</li>
@@ -200,15 +205,21 @@
                             nombreuses.)</li>
                     </ul>
                 </div>
+                <div class="barrenoire">
+                </div>
                 <div>
                     <ul>
                         <li class="tariffdroite">Carte abonnement (10 séances)</li>
                         <li class="texte20droite">- béglais : 50 €</li>
                         <li class="texte20droite">- non-béglais : 55 €</li>
                     </ul>
-                    <div>
+
                         <img src="images/icons/tarif.png" alt="tarif lunette" class="ouioui">
-                        <img src="images/icons/lulu.png" alt="tarif lulu" class="lunette">
+                        <div>
+                            <img src="images/icons/lulu.png" alt="tarif lulu" class="lunette">
+                        </div>
+
+                    <div class="PaymentFlex">
                         <img src="images/icons/carte.png" alt="carte" class="carte">
                         <img src="images/icons/cheque.png" alt="cheque" class="cheque">
                         <img src="images/icons/espece.png" alt="espece" class="espece">
@@ -217,6 +228,9 @@
             </div>
             </p>
         </div>
+
+
+
     </div>
     <div class=div-background2>
         <div class=div-background>
@@ -277,12 +291,8 @@
             </div>
         </div>
     </div>
-
     <script src="main.js"></script>
-
 </body>
 
 </html>
-<!--test one two three viva l'algérie--
-    
-    !tg non ?>
+<!--LE FILOU QUI A MIS SA BOITE TARIF DANS LA DIV FILM JE LE MANGE A LA SORTIE DACCORD?-->

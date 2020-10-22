@@ -62,6 +62,7 @@ p{
 }
 a {
     font-weight: lighter;
+    text-decoration: underline #9a7eB0;
 }
 ul{
     font-weight: lighter;

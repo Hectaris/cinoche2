@@ -2,16 +2,16 @@
     width: auto;
     height: 484px;
     background-color: #9A7EB0;
+    display: flex;
+    justify-content: center;
 }
 
 .barrenoire {
-    position: absolute;
-    margin-left: 52%;
-    margin-top: 0.8%;
+
     left: -25px;
     width: 8px;
-    height: 460px;
-    background-color: black;
+    height: 450px;
+    background-color: #121420;
 }
 
 .textetarif {
@@ -38,8 +38,6 @@ p.tarifement {
     color: #E0E0E2;
     font-size: 20px;
     font-family: 'Niramit', sans-serif;
-    display: flex;
-    margin-left: 100px;
 }
 .tariffgauche {
     color: #E0E0E2;
@@ -52,7 +50,7 @@ p.tarifement {
     font-size: 30px;
     font-family: 'Niramit', sans-serif;
     margin-bottom: 5px;
-    padding-left: 80px;
+
     display: flex;
 }
 .cyril{
@@ -65,30 +63,27 @@ p.tarifement {
     font-family: 'Niramit', sans-serif;
     margin-bottom: 5px;
 }
-.ouioui{
-    position: absolute;
-    margin-left: 8%;
-    margin-top: 2%;
+.BoxOuioui{
 }
 .lunette{
-    position: absolute;
-    margin-left: 11%;
-    margin-top: 2%;
+
+}
+.PaymentFlex{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
 }
 .carte{
-    position: absolute;
-    margin-top: 12%;
-    margin-left: 14%;
+    height: 80px;
+    width: 100px;
 }
 .cheque{
-    position: absolute;
-    margin-top: 165px;
-    margin-left: 21.5%;
+    height: 80px;
+    width: 100px;
 }
 .espece{
-    position: absolute;
-    margin-top: 184px;
-    margin-left: 30.5%;
+    height: 80px;
+    width: 100px;
 }
 @font-face {
     font-family: "Niramit-bold";

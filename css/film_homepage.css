@@ -96,7 +96,6 @@
 }
 
 .Fbutton{
-    margin-left: 45%;
     line-height: 40px;
     text-align: center;
     width: 150px;
@@ -122,4 +121,7 @@
 .Fbutton:hover .FbuttonOverlay {
     opacity: 1;
 }
-
+.BoxFbutton{
+    display: flex;
+    justify-content: center;
+}
