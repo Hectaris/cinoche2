@@ -1,7 +1,20 @@
 .position_propos{
     display: flex;
     justify-content: center;
-    margin-left: 10%;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.propos1{
+    size: 1000px;
+}
+.propos2{
+
+}
+.propos3{
+
+}
+.propos4{
+
 }
 p.intro{
     color: #E0E0E2;
@@ -9,4 +22,8 @@ p.intro{
     font-family: 'Niramit', sans-serif;
     margin-left: 158px;
     margin-right: 198px;
+}
+.tocard{
+    display: flex;
+    justify-content: space-evenly;
 }
