@@ -95,3 +95,31 @@
     object-fit: cover;
 }
 
+.Fbutton{
+    margin-left: 45%;
+    line-height: 40px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background-color: #9a7EB0;
+    font-family:'Niramit', sans-serif;
+    border-width: 0px;
+    margin-top: 50px;
+}
+.FbuttonOverlay{
+    width: 150px;
+    height: 40px;
+    background-image: url(/images/fonds/boxviolette.png);
+    font-family:'Niramit', sans-serif;
+    border-width: 0px;
+    margin-top: 50px;
+    transition: opacity 0.3s ease-in;
+    opacity: 0;
+    position: relative;
+    top:-90px;
+    font-size: 16px;
+}
+.Fbutton:hover .FbuttonOverlay {
+    opacity: 1;
+}
+

@@ -6,12 +6,34 @@
 
 .BVbutton{
     margin-left: 0px;
+    text-align: center;
+    margin-right: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: #9a7EB0;
+    font-family:'Niramit', sans-serif;
+    border-width: 3px;
+    border-color: black;
+    line-height: 40px;
+    font-size: 16px;
+
+}
+.BVbuttonOverlay{
+    margin-left: 0px;
     margin-right: 50px;
     width: 150px;
     height: 40px;
     background-image: url(/images/fonds/boxviolette.png);
     font-family:'Niramit', sans-serif;
     border-width: 0px;
+    transition: opacity 0.3s ease-in;
+    opacity: 0;
+    position: relative;
+    top:-40px;
+    font-size: 16px;
+}
+.BVbutton:hover .BVbuttonOverlay {
+    opacity: 1;
 }
 
 .news {

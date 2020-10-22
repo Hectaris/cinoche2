@@ -63,12 +63,12 @@ text-align: center;
 
 .flex_etoile_video{
 	padding : 50px 0;
-	display: flex;
+
 	justify-content: space-around;
 }
 
 .flex_etoiles{
-	display: flex;
+	margin-left: 11%;
 }
 
 .dimension_etoile{
