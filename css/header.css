@@ -10,7 +10,7 @@
     cursor: pointer;
     transition: all .5s ease-in-out;
     z-index: 20;
-    /* border: 3px #fff */
+
     ;
 }
 
@@ -79,7 +79,7 @@
     left: 0;
     padding: 0 30px;
     background: #121420;
-    width: 40vw;
+    width: 30vw;
     height: 100vh;
     z-index: 9 ;
 
@@ -121,4 +121,22 @@
     background-image: url(/images/fonds/boxviolette.png);
     font-family:'Niramit', sans-serif;
     border-width: 0px;
+}
+
+.navigation-overlay {
+    position: fixed;
+    left: 0;
+    padding: 0 30px;
+    background: rgba(18, 20, 32, 0.70) ;
+    width: 130vw;
+    height: 100vh;
+    z-index: 0 ;
+
+    transform: translateX(-100%);
+
+    transition: all .5s ease-in-out ;
+}
+
+.navigation-overlay.open {
+    transform: translateX(0%);
 }
