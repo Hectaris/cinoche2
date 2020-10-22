@@ -5,15 +5,16 @@ a{
 }
 
 .position_titre{
-	margin-left: 175px;
+	margin-left:10%;
 	margin-top: 60px;
+	display: flex;
 }
 
 
 .dimension_affiche{
 	width: 230px;
 	height: 300px;
-	margin-left: 175px;
+	margin-left:10%;
 	margin-bottom: 0px;
 }
 
@@ -46,6 +47,18 @@ p.taille_titre{
 iframe{
 	border-width: 3px;
 	border-color: #9A7EB0;
+}
+.aButton{
+text-align: center;
+    width: 150px;
+    height: 40px;
+    background-image: url(/images/fonds/boxviolette.png);
+    font-family:'Niramit', sans-serif;
+	border-width: 0px;
+	margin-left: 75%;
+}
+.position_soulignage{
+	margin-left: 10%;
 }
 
 .flex_etoile_video{
