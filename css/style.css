@@ -42,7 +42,7 @@ h2 {
 
 .barrenoire {
     position: absolute;
-    margin-left: 50%;
+    margin-left: 52%;
     margin-top: 0.8%;
     left: -25px;
     width: 8px;
@@ -104,6 +104,7 @@ li {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-right: 300px;
 }
 
 p.tarifement {
@@ -113,10 +114,17 @@ p.tarifement {
     margin-bottom: 5px;
 }
 
-.texte20 {
+.texte20gauche {
     color: #E0E0E2;
     font-size: 20px;
     font-family: 'Niramit', sans-serif;
+}
+.texte20droite {
+    color: #E0E0E2;
+    font-size: 20px;
+    font-family: 'Niramit', sans-serif;
+    display: flex;
+    margin-left: 100px;
 }
 .tariffgauche {
     color: #E0E0E2;
@@ -129,8 +137,41 @@ p.tarifement {
     font-size: 30px;
     font-family: 'Niramit', sans-serif;
     margin-bottom: 5px;
+    padding-left: 80px;
+    display: flex;
 }
 .cyril{
     display: flex;
     justify-content: space-around;
+}
+.lunettes{
+    color: black;
+    font-size: 30px;
+    font-family: 'Niramit', sans-serif;
+    margin-bottom: 5px;
+}
+.ouioui{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+.lunette{
+    position: absolute;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+.carte{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+.cheque{
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 21.5%;
+}
+.espece{
+    position: absolute;
+    margin-top: 184px;
+    margin-left: 32%;
 }
