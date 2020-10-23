@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinema Le Festival</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -118,7 +120,7 @@
     </div>
 
     <div class="espace">
-        <div class="texte">
+        <div class="texte" data-aos="fade-right">
             <h2 id="ancre3">A L'AFFICHE</h2>
             <img class=position_soulignage alt="soulignage laffiche" src="images/icons/soulignage_laffiche.png">
         </div>
@@ -295,7 +297,11 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="main.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
