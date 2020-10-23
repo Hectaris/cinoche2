@@ -15,7 +15,10 @@ body {
     color: #E0E0E2;
     margin: 0px;
     font-family: 'Niramit', regular;
-    overflow-y: scroll;
+   /*  overflow-y: scroll; */
+}
+
+html, body {
     scroll-behavior: smooth;
 }
 
