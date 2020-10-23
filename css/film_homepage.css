@@ -126,3 +126,7 @@
     display: flex;
     justify-content: center;
 }
+
+.position_titre{
+    margin-top: 6%;
+}
