@@ -6,8 +6,9 @@ a{
 
 .position_titre{
 	margin-left:10%;
-	margin-top: 60px;
 	display: flex;
+	flex-direction: column;
+	padding-top: 3%;
 }
 
 
@@ -31,8 +32,8 @@ a{
 .position_video{
     display: flex;
     align-items: center;
-    justify-content: center;
-	margin-right: 95px;
+	justify-content: center;
+	margin-left: 5%;
 }
 
 p.taille_titre{
@@ -55,20 +56,23 @@ text-align: center;
     background-image: url(/images/fonds/boxviolette.png);
     font-family:'Niramit', sans-serif;
 	border-width: 0px;
-	margin-left: 75%;
+	position: absolute;
+	margin-left: 65%;
+	margin-top: 0%;
 }
 .position_soulignage{
 	margin-left: 10%;
 }
 
 .flex_etoile_video{
-	padding : 50px 0;
-
-	justify-content: space-around;
+	margin:2.5% 10%;
+	display: flex;
+	justify-content: space-between;
 }
 
 .flex_etoiles{
-	margin-left: 11%;
+	display: flex;
+	justify-content: center ;
 }
 
 .dimension_etoile{
@@ -79,4 +83,15 @@ text-align: center;
 
 .police_notes{
 	font-size: 23px;
+}
+
+.boite{
+	height: 270px;
+	width: 120px;
+	background-color: #9A7EB0;
+}
+
+.date{
+	font-size: 20px;
+	text-align: center;
 }
