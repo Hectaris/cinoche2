@@ -104,10 +104,14 @@
     text-decoration: none;
     font-size: 40px;
     letter-spacing: .070em;
+    transition: ease-in-out 0.3s;
    
 }
 
 .navigation ul li a:hover{
+
+    color: #9A7EB0;
+    margin-top: 1px;
     font-size: 50px;
     transition: ease-in-out 0.3s;
 }
