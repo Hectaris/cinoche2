@@ -69,10 +69,4 @@ a {
 ul{
     font-weight: lighter;
 }
-#ancre1{
-    scroll-behavior: smooth;
-}
-scroll-container {
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-  }
+
