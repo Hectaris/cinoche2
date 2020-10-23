@@ -8,6 +8,8 @@
     <meta name="content" content="Le seul cinéma français exclusivement consacré 
     aux films d'animation. Situé à Bègles dans la périphérie de Bordeaux, découvrez ce cinéma unique à prix mini.">
     <title>Cinema Le Festival</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -88,7 +90,7 @@
             <div class="news-box">
                 <h2 id="ancre2">EVENEMENTS</h2>
                 <div class=news-box-content>
-                    <img src="images/affiches/feteducinema.png" alt="19è fête du cinéma d'animation">
+                    <img src="images/affiches/feteducinema.png" alt="19e fête du cinéma d'animation">
                     <div class="news-box-text">
                         <p>19e Fête du cinéma d'Animation </p>
                         <p>Du 14 au 31 Octobre</p>
@@ -118,7 +120,7 @@
     </div>
 
     <div class="espace">
-        <div class="texte">
+        <div class="texte" data-aos="fade-right">
             <h2 id="ancre3">A L'AFFICHE</h2>
             <img class=position_soulignage alt="soulignage laffiche" src="images/icons/soulignage_laffiche.png">
         </div>
@@ -127,7 +129,8 @@
         <div class="big-films-boxes">
             <div class="film-box">
                 <div class="film-box-img">
-                    <img alt="Affiche Mon voisin Totoro" src="images/affiches/affiche_totoro.jpg" />
+                    <img alt="Affiche Mon voisin Totoro" src="images/affiches/affiche_totoro.jpg" >                  
+                    
                 </div>
                 <div class="position_titre">
                     <a href="film.html#Totoro">TOTORO<br>Un film de Hayao Miyazaki</a>
@@ -156,7 +159,7 @@
 
 
     <div class="espace">
-        <div class="texte">
+        <div class="texte" data-aos="fade-right">
             <h2>FILMS</h2>
             <img class=position_soulignage alt="soulignage laffiche" src="images/icons/soulignage_films.png">
         </div>
@@ -190,9 +193,9 @@
         </div>
 
     </div>
-    <div class="tarifs">
+    <div class="tarifs" data-aos="fade-right">
 
-        <div class="textetarif">
+        <div class="textetarif" data-aos="fade-right">
             <div class="cyril">
                 <div class=sousBoiteG>
                     <ul>
@@ -296,7 +299,11 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="main.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
