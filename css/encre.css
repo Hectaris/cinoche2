@@ -35,12 +35,13 @@
     width: 150px;
     top: 2px;
     height: 90%;
-    line-height: 55px;
+    line-height: 50px;
     border-radius: 25px;
     opacity: 0;
+    text-decoration: none;
 
     font-family: "Niramit";
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
 
     cursor: pointer;

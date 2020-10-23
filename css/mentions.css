@@ -1,6 +1,6 @@
 .position_soulignageA{
     margin-bottom: 40px;
-    width: 300px;
+    width:185px;
 }
 .position_propos{
     display: flex;
@@ -12,5 +12,6 @@
 .position_titre{
         display: flex;
         flex-direction: column;
+        padding-top: 3%;
 }
     
