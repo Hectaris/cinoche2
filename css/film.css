@@ -6,8 +6,9 @@ a{
 
 .position_titre{
 	margin-left:10%;
-	margin-top: 60px;
 	display: flex;
+	flex-direction: column;
+	padding-top: 3%;
 }
 
 
@@ -55,7 +56,9 @@ text-align: center;
     background-image: url(/images/fonds/boxviolette.png);
     font-family:'Niramit', sans-serif;
 	border-width: 0px;
-	margin-left: 75%;
+	position: absolute;
+	margin-left: 65%;
+	margin-top: 0%;
 }
 .position_soulignage{
 	margin-left: 10%;

@@ -7,11 +7,11 @@
 }
 
 .barrenoire {
-
-    left: -25px;
+    margin-top: 10px;
     width: 8px;
     height: 450px;
     background-color: #121420;
+    margin-bottom: 10px;
 }
 
 .textetarif {
@@ -68,6 +68,8 @@ p.tarifement {
     border-radius: 40px;
     display: flex;
     justify-content: space-between;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 .BoxOuioui{
 }
@@ -78,19 +80,24 @@ p.tarifement {
     padding-left: 50px;
 }
 .carte{
-    height: 80px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
 }
 .cheque{
     height: 80px;
-    width: 100px;
+    width: 80px;
 }
 .espece{
-    height: 80px;
-    width: 100px;
+    height: 75px;
+    width: 110px;
 }
-.sousBoite{
+.sousBoiteD{
     width: 45%;
+    padding-left: 50px;
+}
+.sousBoiteG{
+    width: 45%;
+    padding-right: 50px;
 }
 @font-face {
     font-family: "Niramit-bold";
