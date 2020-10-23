@@ -12,8 +12,31 @@
     background-image: url(/images/fonds/boxviolette.png);
     font-family:'Niramit', sans-serif;
     border-width: 0px;
+    color: #E0E0E2;
+    line-height: 40px;
+    font-size: 18px;
+}
+.HDbuttonOverlay{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-family:'Niramit', sans-serif;
+    cursor: pointer;
+    background-image: url(/images/fonds/boxviolette.png);
+    color: #121420;
+    transition: opacity 0.3s ease-in;
+    opacity: 0;
+    display: block;
+
+    position: relative;
+    top:-40px;
+    border-width: 0px;
+    font-size: 18px;
 }
 .box-sstitre{
     display: grid;
     justify-items: center;
+}
+.HDbutton:hover .HDbuttonOverlay {
+    opacity: 1;
 }
