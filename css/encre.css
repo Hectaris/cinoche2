@@ -20,7 +20,7 @@
     background-image: url(/images/icons/traitencres.png);
     margin-top: 2px;
     margin-bottom: 2px;
-    margin-left: 25px;
+    margin-left: 26px;
 }
 #cercle1{
     margin-top: 0px;
@@ -58,4 +58,24 @@
 }
 .encre .cercle1 .p{
     padding-bottom: 3px;
+}
+#triangleH{
+    background-image: url(/images/icons/triangle.png);
+    width: 17px;
+    height: 12px;
+    position: relative;
+    top: 40%;
+    left: 36%;
+    z-index: 0;
+
+}
+#triangleB{
+    background-image: url(/images/icons/triangleB.png);
+    width: 17px;
+    height: 12px;
+    position: relative;
+    top: 43%;
+    left: 36%;
+    z-index: 0;
+
 }
