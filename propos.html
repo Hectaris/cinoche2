@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A PROPOS - Cinéma le festival</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/film.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -52,7 +54,7 @@
         </div>
 
 
-    <div class="position_titre">
+    <div class="position_titre" data-aos="fade-right">
         <h2>A PROPOS</h2>
         <img class="position_soulignageA" alt="soulignage a propos" src="images/icons/propos.png" />
     </div>
@@ -64,18 +66,18 @@
         au cinéma d'animation ainsi qu'aux films à effets spéciaux.
     </p>
     <div class="position_propos">
-        <div class="propos1">
+        <div class="propos1" data-aos="fade-down-right">
             <img src="images/affiches/propos1.png">
         </div>
-        <div class="propos2">
+        <div class="propos2" data-aos="fade-down-left">
             <img src="images/affiches/propos2.png">
         </div>
         <br>
         <br>
-        <div class="propos3">
+        <div class="propos3" data-aos="fade-up-right">
             <img src="images/affiches/propos3.png">
         </div>
-        <div class="propos4">
+        <div class="propos4" data-aos="fade-up-left">
             <img src="images/affiches/propos4.png">
         </div>
     </div>
@@ -161,5 +163,11 @@
 </body>
 </html>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="main.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
 </body>
