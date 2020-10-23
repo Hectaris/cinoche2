@@ -27,15 +27,19 @@
 }
 
 .overlay_encre {
+
+    margin-top: 3px;
+    margin-right: 6px;
+
     color: #121420;
     background-color: #E0E0E2;
     position: absolute;
     display: block;
     right: 0;
     width: 150px;
-    top: 2px;
-    height: 90%;
-    line-height: 50px;
+    top: 5px;
+    height: 75%;
+    line-height: 42px;
     border-radius: 25px;
     opacity: 0;
     text-decoration: none;
