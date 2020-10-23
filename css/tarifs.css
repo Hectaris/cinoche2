@@ -19,7 +19,6 @@
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 300px;
 }
 
 p.tarifement {
@@ -62,12 +61,17 @@ p.tarifement {
     font-size: 30px;
     font-family: 'Niramit', sans-serif;
     margin-bottom: 5px;
+    padding: 6px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #cab1ea;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 .BoxOuioui{
 }
-.lunette{
 
-}
 .PaymentFlex{
     display: flex;
     justify-content: space-around;
@@ -84,6 +88,9 @@ p.tarifement {
 .espece{
     height: 80px;
     width: 100px;
+}
+.sousBoite{
+    width: 45%;
 }
 @font-face {
     font-family: "Niramit-bold";
